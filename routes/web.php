@@ -16,3 +16,8 @@ Route::get('/', function () {
 });
 Route::get('/user','User\Index@detail');
 Route::get('/vip','Vip\userController@index');
+Route::get('/vip/add','Vip\userController@add');
+Route::get('/vip/update','Vip\userController@update');
+Route::get('/vip/delete','Vip\userController@delete');
+Route::get('/vip/userList','Vip\userController@userList');
+
