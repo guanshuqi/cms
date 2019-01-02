@@ -46,4 +46,7 @@ class UserController extends Controller
         ];
         return view('user.user',$data);
     }
+    public function user(){
+        echo 111;
+    }
 }
